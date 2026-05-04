@@ -1,8 +1,6 @@
 # Environment
 *.env
 .env
-environment.ts
-environment.development.ts
 .editorconfig
 
 
@@ -18,6 +16,7 @@ dist/
 
 # IDE
 .vscode/*
+.vscode*
 !.vscode/extensions.json
 .idea/
 
