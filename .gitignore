@@ -1,6 +1,7 @@
 # Environment
 *.env
 .env
+src/environments/env.ts
 .editorconfig
 
 
