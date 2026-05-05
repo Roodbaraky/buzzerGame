@@ -1,10 +1,4 @@
-(window as any).process = {
-  env: {
-    SUPABASE_URL: 'https://test.supabase.co',
-    SUPABASE_ANON_KEY: 'test-anon-key',
-  },
-};
-
+// Supabase auth-js uses navigator.locks which can fail in headless Chrome.
 Object.defineProperty(navigator, 'locks', {
   value: {
     request: (...args: unknown[]) => {
